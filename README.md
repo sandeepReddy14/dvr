@@ -3,8 +3,8 @@ Implementation of Distance Vector Routing Protocol algorithm via multi-threading
 
 To run the program use:<br>
 `python3 dvr.py testcase.txt`<br>
-The input.txt file conatins the input to the program.The format and the details of the input is as follows:<br>
 
+The input.txt file conatins the input to the program.The format and the details of the input is as follows:<br>
 4<br>
 A B C D<br>
 A B 1<br>
