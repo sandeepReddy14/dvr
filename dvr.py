@@ -36,11 +36,10 @@ for i in range(router_count):
     matrix.append(a)
 
 for line in file:
-    if line!="EOF\n":
-        src,dest,cost=line.split()
-        cost=int(cost)
-        matrix[d.get(src)][d.get(dest)]=cost
-        matrix[d.get(dest)][d.get(src)]=cost
+    src,dest,cost=line.split()
+    cost=int(cost)
+    matrix[d.get(src)][d.get(dest)]=cost
+    matrix[d.get(dest)][d.get(src)]=cost
 
 file.close()
 
