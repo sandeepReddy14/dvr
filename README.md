@@ -1,9 +1,9 @@
 # dvr algortihm also know as Bellman-Ford Algorithm
 Implementation of Distance Vector Routing Protocol algorithm via multi-threading in python,where each thread is an instance of a router and the threads communicate using a shared queue.<br>
 
-To run the program use:
-`python3 dvr.py testcase.txt`
-The input.txt file conatins the input to the program.The format and the details of the input is as follows:
+To run the program use:<br>
+`python3 dvr.py testcase.txt`<br>
+The input.txt file conatins the input to the program.The format and the details of the input is as follows:<br>
 4<br>
 A B C D<br>
 A B 1<br>
